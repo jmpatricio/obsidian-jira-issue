@@ -41,6 +41,7 @@ export enum ESearchColumnsTypes {
     TIME_ORIGINAL_ESTIMATE = 'TIME_ORIGINAL_ESTIMATE',
     TIME_SPENT = 'TIME_SPENT',
     DEV_STATUS = 'DEV_STATUS',
+    STORY_POINTS = 'STORY_POINTS',
 
     CUSTOM_FIELD = 'CUSTOM_FIELD',
     NOTES = 'NOTES',
@@ -78,6 +79,7 @@ export const SEARCH_COLUMNS_DESCRIPTION = {
     [ESearchColumnsTypes.DEV_STATUS]: 'Dev Status',
 
     [ESearchColumnsTypes.CUSTOM_FIELD]: 'Custom field',
+    [ESearchColumnsTypes.STORY_POINTS]: 'Story Points',
     [ESearchColumnsTypes.NOTES]: 'Notes',
 }
 
